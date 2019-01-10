@@ -1,0 +1,162 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+body {
+	font: 16px/28px arial, sans-serif;
+	background-color: #eaeaea;
+	background-image: url(img/skulls.png);
+	color: #333;
+}
+
+.container {
+	width: 1000px;
+	margin: auto;
+	background-color: white;
+}
+
+.header {
+	padding-top: 20px;
+	padding-bottom: 10px;
+	background-color: white;
+}
+
+.header .judul {
+	font-size: 40px;
+	font-weight: bold;
+}
+
+.header ul li {
+	display: inline-block;
+	margin-top: 20px;
+	margin-right: 10px;
+	color: black;
+}
+
+.header a {
+	text-decoration: none;
+	color: red;
+	padding: 3px;
+
+}
+
+.header a:hover {
+	background-color: violet;
+	color: black;
+}
+
+.carousel-inner img {
+    width: 100%; /* Set width to 100% */
+    margin: auto;
+    min-height:200px;
+
+}
+
+@media (max-width: 100%) {
+	.carousel-caption {
+ 	display: none; 
+	}
+}
+
+.col-lg-3 img {
+	padding-top: 20px;
+	width: 500px;
+	height: 300px;
+}
+
+.row p {
+	font-size: 14px;
+}
+
+.row h1 {
+	padding-top: 17px;
+	font-weight: bold;
+	font-size: 30px;
+}
+
+.row ul {
+	font-size: 14px;
+}
+
+.container h1 {
+	font-size: 30px;
+	font-weight: bold;
+}
+
+footer .container {
+	background-color: black;
+	color: white;
+	font-size: 14px;
+}
+
+#team img {
+	width: 60%;
+	border: solid 2px black;
+	margin: 0 auto
+}
+
+.col-lg-6 iframe {
+	padding-bottom: 20px;
+	width: 450px;
+}
+
+.row a img {
+	width: 310px;
+	height: 250px;
+}
+
+.col-md-6 li {
+	list-style: none;
+	margin: 10px 1px;
+	
+	font-size: 20px;
+	padding: 10px;
+	color: black;
+	border-radius: 50%;
+	transition: .5s;
+}
